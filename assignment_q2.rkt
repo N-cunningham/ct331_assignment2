@@ -14,4 +14,6 @@
 (provide ins_beg)
 
 (define (ins_beg el lst)
-  (display "Hello, I'm ins_beg!\n"))
+  (display "Running\n")
+  (cons el lst)  
+)
